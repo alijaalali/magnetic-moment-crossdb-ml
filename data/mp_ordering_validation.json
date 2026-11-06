@@ -1,0 +1,54 @@
+{
+  "all_overlap": {
+    "FM": {
+      "n": 2172,
+      "median_abs_mag_mp": 0.4998063638888889,
+      "mean_abs_mag_mp": 0.6912383320692834,
+      "frac_exceeding_0.1_muB": 0.7016574585635359
+    },
+    "AFM": {
+      "n": 2620,
+      "median_abs_mag_mp": 0.14283137749999997,
+      "mean_abs_mag_mp": 0.4085634354798082,
+      "frac_exceeding_0.1_muB": 0.5309160305343511
+    },
+    "NM": {
+      "n": 10576,
+      "median_abs_mag_mp": 1.75e-07,
+      "mean_abs_mag_mp": 0.001666256529079106,
+      "frac_exceeding_0.1_muB": 0.004444024205748865
+    },
+    "interpretation": {
+      "afm_rate": 0.5309160305343511,
+      "fm_rate": 0.7016574585635359,
+      "nm_rate": 0.004444024205748865,
+      "afm_closer_to_fm_than_nm": true
+    }
+  },
+  "correlated_electron_overlap": {
+    "FM": {
+      "n": 1553,
+      "median_abs_mag_mp": 0.647791525,
+      "mean_abs_mag_mp": 0.7496586690121464,
+      "frac_exceeding_0.1_muB": 0.7997424339987121
+    },
+    "AFM": {
+      "n": 1460,
+      "median_abs_mag_mp": 0.29415956470588234,
+      "mean_abs_mag_mp": 0.4366935443963865,
+      "frac_exceeding_0.1_muB": 0.6438356164383562
+    },
+    "NM": {
+      "n": 3465,
+      "median_abs_mag_mp": 7e-07,
+      "mean_abs_mag_mp": 0.001778531667682501,
+      "frac_exceeding_0.1_muB": 0.00404040404040404
+    },
+    "interpretation": {
+      "afm_rate": 0.6438356164383562,
+      "fm_rate": 0.7997424339987121,
+      "nm_rate": 0.00404040404040404,
+      "afm_closer_to_fm_than_nm": true
+    }
+  }
+}

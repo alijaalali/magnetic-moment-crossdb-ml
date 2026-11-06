@@ -1,0 +1,50 @@
+{
+  "mp_source_internal": {
+    "n": 14893,
+    "mae": 0.07707063539733565,
+    "r2": 0.8474019807049302
+  },
+  "mp_source_to_jarvis_zero_shot": {
+    "n": 12553,
+    "mae": 0.12635903141369825,
+    "r2": -1.9956198454365155
+  },
+  "mp_source_to_jarvis_subgroup": {
+    "correlated_electron": {
+      "n": 4194,
+      "mae": 0.18564513832448526,
+      "target_std": 0.32066110538981146,
+      "mae_over_target_std": 0.5789449833611903
+    },
+    "non_correlated": {
+      "n": 8359,
+      "mae": 0.09661313688279252,
+      "target_std": 0.158853190223235,
+      "mae_over_target_std": 0.6081913542121686
+    }
+  },
+  "jarvis_source_internal": {
+    "n": 12553,
+    "mae": 0.06976128219125445,
+    "r2": 0.5938276981790488
+  },
+  "jarvis_source_to_mp_zero_shot": {
+    "n": 14893,
+    "mae": 0.13278514771834754,
+    "r2": 0.2771332934030698
+  },
+  "jarvis_source_to_mp_subgroup": {
+    "correlated_electron": {
+      "n": 5943,
+      "mae": 0.1825668146410478,
+      "target_std": 0.4309181981418895,
+      "mae_over_target_std": 0.4236693076047199
+    },
+    "non_correlated": {
+      "n": 8950,
+      "mae": 0.09972900844219025,
+      "target_std": 0.39262870740133515,
+      "mae_over_target_std": 0.25400335370854527
+    }
+  }
+}

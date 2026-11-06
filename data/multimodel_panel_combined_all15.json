@@ -1,0 +1,805 @@
+{
+  "XGBoost": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.07433035684112844,
+      "r2": 0.8616557111562868
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.06957454207758482,
+      "r2": 0.6145284200276623
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.092835149907574,
+      "r2": 0.023426461490200556
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.1351902069136109,
+      "r2": 0.3019221098725412
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.16624154814351735,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.5172934623667711
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.05647560879006362,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 0.35869021651689376
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.18884012364128758,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.4434821213587613
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.09956028344775684,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.2285604949466308
+      }
+    }
+  },
+  "RandomForest": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.07105826900804361,
+      "r2": 0.8487521297248912
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.06589343932900489,
+      "r2": 0.6216935763478981
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.08951388651137018,
+      "r2": -0.04414049649555074
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.13688274067483297,
+      "r2": 0.24747421509506917
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.1641655458382742,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.5108335705265343
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.052537544639063335,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 0.3336786210114685
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.18969639394006949,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.44549303175872296
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.10180819557639138,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.23372102574189363
+      }
+    }
+  },
+  "Ridge": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.20092994391284116,
+      "r2": 0.2960750342751969
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.11871372691087892,
+      "r2": 0.2239124664133305
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.1925539621828927,
+      "r2": -0.39648530228600665
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.1829743559772767,
+      "r2": 0.1167249943307076
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.2430293539764662,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.7562339101096022
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.16755257092212048,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 1.0641668010242247
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.24440530693552848,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.5739743328965357
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.1421769006487392,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.32639544260945896
+      }
+    }
+  },
+  "Lasso": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.2034592165597806,
+      "r2": 0.2796351427182424
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.11777226126774161,
+      "r2": 0.1851639794270965
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.19407593892530678,
+      "r2": -0.4524620469567875
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.18808781443153144,
+      "r2": 0.07612934185745701
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.2533764132648372,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.788430831904236
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.1647033217304711,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 1.046070532009005
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.2600405928054985,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.6106930641278097
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.14030261469612407,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.32209264524723547
+      }
+    }
+  },
+  "kNN": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.14269621016189157,
+      "r2": 0.44209160445944407
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.08825474258339397,
+      "r2": 0.33269566946186624
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.1270993441011189,
+      "r2": -0.8854081703345429
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.1380054659713069,
+      "r2": 0.15678417012776324
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.17033846750191595,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.5300418373886028
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.10568220985999792,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 0.6712132113100104
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.19800688582146486,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.46500982987360295
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.09815738926402583,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.22533987144208276
+      }
+    }
+  },
+  "GaussianProcess": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.16907455978794467,
+      "r2": 0.3620663634950926
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.10879353611081838,
+      "r2": 0.21866713285908546
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.15749136221483187,
+      "r2": -0.25984062307261446
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.17684056520877245,
+      "r2": 0.11200369031224311
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.21558784494269712,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.6708442263682517
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.12871510424155572,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 0.817500680356033
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.23645512041231406,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.5553036949170226
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.13724941262349039,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.3150834107138744
+      }
+    },
+    "capped": true
+  },
+  "SVR": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.17204591075714917,
+      "r2": 0.38144487437702634
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.12775689007303787,
+      "r2": 0.13625364165472387
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.1767320815085475,
+      "r2": -0.601920761364386
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.18835666714191493,
+      "r2": 0.09927233617890086
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.2282293317464228,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.710180713252491
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.15122454493871865,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 0.960463568766013
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.2375068306531484,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.5577735868005184
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.15571511481428468,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.35747511437429746
+      }
+    },
+    "capped": true
+  },
+  "AdaBoost": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.2259208558803351,
+      "r2": 0.48967088697497607
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.1728203010768409,
+      "r2": 0.09682817650555475
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.2282786338837214,
+      "r2": -0.6833650975907084
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.21483645414703945,
+      "r2": 0.16430529749751532
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.29772958259653665,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.9264444920677418
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.19387829977037652,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 1.2313678561850037
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.2584143930986524,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.6068740108363859
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.18589552144201926,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.426760259390435
+      }
+    },
+    "capped": false
+  },
+  "MLP": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.08368002341741423,
+      "r2": 0.840441786867191
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.07181277674363686,
+      "r2": 0.596173218418464
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.09756449917446954,
+      "r2": -0.09317953132379886
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.14261579851179373,
+      "r2": 0.23931669321369875
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.16020459933118994,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.49850830192923823
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.0665377037998664,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 0.42259700946703393
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.18998048181104635,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.4461601987211447
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.11116001733131341,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.2551899984580998
+      }
+    },
+    "capped": false
+  },
+  "LightGBM": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.0743063395071498,
+      "r2": 0.8601411348214981
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.06960650327384257,
+      "r2": 0.6142765237928434
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.09302278128610308,
+      "r2": 0.04159296079451713
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.13703969070892053,
+      "r2": 0.26034059294050704
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.166516430482212,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.5181488131398767
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.0566200231609487,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 0.3596074270272483
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.18954685927644774,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.44514185665588507
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.10216868788955212,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.23454860777226932
+      }
+    },
+    "capped": false
+  },
+  "CatBoost": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.07526351481095457,
+      "r2": 0.8632602328532561
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.07082237317303532,
+      "r2": 0.606047479405575
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.09306305722740124,
+      "r2": 0.04325281530270142
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.13559258000069338,
+      "r2": 0.29920051163987726
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.16496265756250975,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.5133139413383303
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.057449860863860266,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 0.36487792648193684
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.18944917173184236,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.4449124420660376
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.09982539975970951,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.2291691223367901
+      }
+    },
+    "capped": false
+  },
+  "ExtraTrees": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.07688028108091687,
+      "r2": 0.8552842521870445
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.06879714716780543,
+      "r2": 0.6105286384974593
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.09286883147031662,
+      "r2": 0.06765669936456231
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.13404725457382066,
+      "r2": 0.3569550791430399
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.16225978351785678,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.5049034140753578
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.05849821481035998,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 0.3715362753180539
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.19394252326988246,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.4554648661678453
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.09426967485380343,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.21641484733567942
+      }
+    },
+    "capped": false
+  },
+  "BayesianRidge": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.20155330687095468,
+      "r2": 0.2939204990015172
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.11848941328216923,
+      "r2": 0.22356981270891685
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.192659256454012,
+      "r2": -0.4026515841538365
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.1828926017507675,
+      "r2": 0.11703975276883338
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.24303810378866478,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.7562611368811151
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.16770568544199402,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 1.06513926827977
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.2444025439397332,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.5739678441312618
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.14204268685329724,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.32608732806365237
+      }
+    },
+    "capped": false
+  },
+  "ElasticNet": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.20230580590538896,
+      "r2": 0.28420707248609844
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.11796389871437488,
+      "r2": 0.1836389767281884
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.18945637168027557,
+      "r2": -0.39697630190772837
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.18643052720688083,
+      "r2": 0.0981224740391129
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "mae": 0.2442752461636267,
+        "target_std": 0.3213679666139853,
+        "mae_over_target_std": 0.7601107501079615
+      },
+      "non_correlated": {
+        "n": 41973,
+        "mae": 0.1623035734407199,
+        "target_std": 0.1574495377612389,
+        "mae_over_target_std": 1.0308291516666235
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "mae": 0.2537703092136099,
+        "target_std": 0.42581225836728287,
+        "mae_over_target_std": 0.5959675989288246
+      },
+      "non_correlated": {
+        "n": 44745,
+        "mae": 0.14170890552597884,
+        "target_std": 0.4355970766995596,
+        "mae_over_target_std": 0.3253210664306603
+      }
+    },
+    "capped": false
+  },
+  "GBM": {
+    "mp_internal": {
+      "n": 14893,
+      "mae": 0.07349255940911152,
+      "r2": 0.8619459893068657,
+      "target_mean": 0.1820374732457473,
+      "target_std": 0.42247130557681006,
+      "clf_accuracy": 0.9113677566642047,
+      "clf_f1": 0.8428197189807097,
+      "clf_auc": 0.96134126705581,
+      "frac_magnetic_true": 0.28792049956355337
+    },
+    "jarvis_internal": {
+      "n": 12553,
+      "mae": 0.07014055377728305,
+      "r2": 0.611527791397634,
+      "target_mean": 0.08517064239512885,
+      "target_std": 0.2369731018351082,
+      "clf_accuracy": 0.9106189755436948,
+      "clf_f1": 0.721864154685176,
+      "clf_auc": 0.944574699703965,
+      "frac_magnetic_true": 0.17629251971640245
+    },
+    "mp_to_jarvis": {
+      "n": 62763,
+      "mae": 0.09354191072639258,
+      "r2": 0.009340618367794318,
+      "target_mean": 0.08388973553200421,
+      "target_std": 0.23604155422250125,
+      "clf_accuracy": 0.8888357790417921,
+      "clf_f1": 0.6825895091215141,
+      "clf_auc": 0.889001850709067,
+      "frac_magnetic_true": 0.1732390102448895
+    },
+    "jarvis_to_mp": {
+      "n": 74461,
+      "mae": 0.13468544019486536,
+      "r2": 0.3328334759856908,
+      "target_mean": 0.18755871793301668,
+      "target_std": 0.44440620749700677,
+      "clf_accuracy": 0.8661849827426438,
+      "clf_f1": 0.7400198298804989,
+      "clf_auc": 0.8962803074228745,
+      "frac_magnetic_true": 0.29091739299767666
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 20790,
+        "target_mean": 0.1836134528324527,
+        "target_std": 0.3213679666139853,
+        "target_median": 0.0,
+        "frac_magnetic": 0.36498316498316496,
+        "mae": 0.16735363736794545,
+        "rmse": 0.28386215560265876,
+        "r2": 0.21979303490957158,
+        "mae_over_target_std": 0.5207539479781571
+      },
+      "non_correlated": {
+        "n": 41973,
+        "target_mean": 0.03449474154357537,
+        "target_std": 0.1574495377612389,
+        "target_median": 0.0,
+        "frac_magnetic": 0.07826459867057393,
+        "mae": 0.05698160298384653,
+        "rmse": 0.20644962866294703,
+        "r2": -0.7192753325865506,
+        "mae_over_target_std": 0.3619039077158493
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 29716,
+        "target_mean": 0.3169174991635264,
+        "target_std": 0.42581225836728287,
+        "target_median": 0.1476526083489681,
+        "frac_magnetic": 0.5510499394265715,
+        "mae": 0.18831136566841272,
+        "rmse": 0.31833255047779724,
+        "r2": 0.44111072199149426,
+        "mae_over_target_std": 0.44224035820496604
+      },
+      "non_correlated": {
+        "n": 44745,
+        "target_mean": 0.10164910695869941,
+        "target_std": 0.4355970766995596,
+        "target_median": 5.656666666666667e-06,
+        "frac_magnetic": 0.11815845345848698,
+        "mae": 0.09907144977421643,
+        "rmse": 0.38983068868168186,
+        "r2": 0.19909291193923262,
+        "mae_over_target_std": 0.2274382797168037
+      }
+    }
+  }
+}

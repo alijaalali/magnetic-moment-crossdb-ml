@@ -1,0 +1,225 @@
+{
+  "method": "Input-gradient attribution (mean |dy/dx| over MP_test, normalized to sum to 1 within each model), compared between a plain (non-adversarial) encoder+task-head network and the DANN (mp_source run), both trained with the same architecture and hyperparameters except the domain head + gradient-reversal term. Feature-level correlated-electron association measured a priori and independently of either model via point-biserial correlation against the binary has_correlated_electron_element flag.",
+  "top15_correlated_electron_associated_features": [
+    {
+      "feature": "MagpieData maximum GSmagmom",
+      "pointbiserial_r_vs_corr_flag": 0.5229776265690302,
+      "attr_plain_norm": 0.0057191806845366955,
+      "attr_dann_norm": 0.006153601687401533,
+      "suppression_plain_minus_dann": -0.00043442100286483765
+    },
+    {
+      "feature": "MagpieData range GSmagmom",
+      "pointbiserial_r_vs_corr_flag": 0.5227315879872574,
+      "attr_plain_norm": 0.005678632762283087,
+      "attr_dann_norm": 0.0059164827689528465,
+      "suppression_plain_minus_dann": -0.00023785000666975975
+    },
+    {
+      "feature": "MagpieData avg_dev GSmagmom",
+      "pointbiserial_r_vs_corr_flag": 0.47916463425340583,
+      "attr_plain_norm": 0.007201455067843199,
+      "attr_dann_norm": 0.009306740947067738,
+      "suppression_plain_minus_dann": -0.002105285879224539
+    },
+    {
+      "feature": "MagpieData mean GSmagmom",
+      "pointbiserial_r_vs_corr_flag": 0.39177789106914657,
+      "attr_plain_norm": 0.011425754986703396,
+      "attr_dann_norm": 0.011598663404583931,
+      "suppression_plain_minus_dann": -0.00017290841788053513
+    },
+    {
+      "feature": "MagpieData minimum GSvolume_pa",
+      "pointbiserial_r_vs_corr_flag": 0.3565511435902565,
+      "attr_plain_norm": 0.01797078363597393,
+      "attr_dann_norm": 0.023662179708480835,
+      "suppression_plain_minus_dann": -0.005691396072506905
+    },
+    {
+      "feature": "MagpieData mean GSvolume_pa",
+      "pointbiserial_r_vs_corr_flag": 0.3147945849354379,
+      "attr_plain_norm": 0.014257210306823254,
+      "attr_dann_norm": 0.01407440472394228,
+      "suppression_plain_minus_dann": 0.00018280558288097382
+    },
+    {
+      "feature": "MagpieData maximum AtomicWeight",
+      "pointbiserial_r_vs_corr_flag": 0.25337215066473784,
+      "attr_plain_norm": 0.004290284123271704,
+      "attr_dann_norm": 0.004134053364396095,
+      "suppression_plain_minus_dann": 0.00015623075887560844
+    },
+    {
+      "feature": "MagpieData maximum Number",
+      "pointbiserial_r_vs_corr_flag": 0.25266348134157113,
+      "attr_plain_norm": 0.003981014247983694,
+      "attr_dann_norm": 0.00413620937615633,
+      "suppression_plain_minus_dann": -0.00015519512817263603
+    },
+    {
+      "feature": "MagpieData avg_dev NValence",
+      "pointbiserial_r_vs_corr_flag": 0.2413940560253946,
+      "attr_plain_norm": 0.012036328203976154,
+      "attr_dann_norm": 0.012847882695496082,
+      "suppression_plain_minus_dann": -0.000811554491519928
+    },
+    {
+      "feature": "MagpieData mean AtomicWeight",
+      "pointbiserial_r_vs_corr_flag": 0.23973411630456168,
+      "attr_plain_norm": 0.004543837159872055,
+      "attr_dann_norm": 0.003231009468436241,
+      "suppression_plain_minus_dann": 0.001312827691435814
+    },
+    {
+      "feature": "MagpieData mean Number",
+      "pointbiserial_r_vs_corr_flag": 0.23014894245532128,
+      "attr_plain_norm": 0.004488615319132805,
+      "attr_dann_norm": 0.0042052241042256355,
+      "suppression_plain_minus_dann": 0.00028339121490716934
+    },
+    {
+      "feature": "MagpieData maximum Row",
+      "pointbiserial_r_vs_corr_flag": 0.22467876846304358,
+      "attr_plain_norm": 0.0049343048594892025,
+      "attr_dann_norm": 0.00533006526529789,
+      "suppression_plain_minus_dann": -0.0003957604058086872
+    },
+    {
+      "feature": "MagpieData maximum SpaceGroupNumber",
+      "pointbiserial_r_vs_corr_flag": 0.22333769291408928,
+      "attr_plain_norm": 0.016827767714858055,
+      "attr_dann_norm": 0.017573650926351547,
+      "suppression_plain_minus_dann": -0.0007458832114934921
+    },
+    {
+      "feature": "MagpieData maximum NdUnfilled",
+      "pointbiserial_r_vs_corr_flag": 0.21755174559522913,
+      "attr_plain_norm": 0.012685981579124928,
+      "attr_dann_norm": 0.014424961991608143,
+      "suppression_plain_minus_dann": -0.0017389804124832153
+    },
+    {
+      "feature": "MagpieData range NdUnfilled",
+      "pointbiserial_r_vs_corr_flag": 0.21325504742739154,
+      "attr_plain_norm": 0.013149277307093143,
+      "attr_dann_norm": 0.014355541206896305,
+      "suppression_plain_minus_dann": -0.0012062638998031616
+    }
+  ],
+  "bottom15_least_correlated_electron_associated_features": [
+    {
+      "feature": "MagpieData minimum NsValence",
+      "pointbiserial_r_vs_corr_flag": 0.017849174262110593,
+      "attr_plain_norm": 0.002990535693243146,
+      "attr_dann_norm": 0.001779138925485313,
+      "suppression_plain_minus_dann": 0.001211396767757833
+    },
+    {
+      "feature": "MagpieData mean SpaceGroupNumber",
+      "pointbiserial_r_vs_corr_flag": 0.017688003144384176,
+      "attr_plain_norm": 0.021578684449195862,
+      "attr_dann_norm": 0.022097717970609665,
+      "suppression_plain_minus_dann": -0.0005190335214138031
+    },
+    {
+      "feature": "MagpieData mean NpValence",
+      "pointbiserial_r_vs_corr_flag": 0.017266311864467546,
+      "attr_plain_norm": 0.005886905360966921,
+      "attr_dann_norm": 0.003926652949303389,
+      "suppression_plain_minus_dann": 0.0019602524116635323
+    },
+    {
+      "feature": "MagpieData range NsValence",
+      "pointbiserial_r_vs_corr_flag": 0.015523306660043748,
+      "attr_plain_norm": 0.002721659140661359,
+      "attr_dann_norm": 0.002347687492147088,
+      "suppression_plain_minus_dann": 0.0003739716485142708
+    },
+    {
+      "feature": "MagpieData range Column",
+      "pointbiserial_r_vs_corr_flag": 0.0155154689072227,
+      "attr_plain_norm": 0.004257469438016415,
+      "attr_dann_norm": 0.0046781268902122974,
+      "suppression_plain_minus_dann": -0.0004206574521958828
+    },
+    {
+      "feature": "MagpieData range Electronegativity",
+      "pointbiserial_r_vs_corr_flag": 0.01544664777454482,
+      "attr_plain_norm": 0.004456490743905306,
+      "attr_dann_norm": 0.003937909845262766,
+      "suppression_plain_minus_dann": 0.00051858089864254
+    },
+    {
+      "feature": "MagpieData avg_dev NdValence",
+      "pointbiserial_r_vs_corr_flag": 0.015091426263790625,
+      "attr_plain_norm": 0.015665553510189056,
+      "attr_dann_norm": 0.011370024643838406,
+      "suppression_plain_minus_dann": 0.004295528866350651
+    },
+    {
+      "feature": "MagpieData avg_dev Electronegativity",
+      "pointbiserial_r_vs_corr_flag": 0.011170808834218483,
+      "attr_plain_norm": 0.021517833694815636,
+      "attr_dann_norm": 0.024618688970804214,
+      "suppression_plain_minus_dann": -0.003100855275988579
+    },
+    {
+      "feature": "MagpieData minimum NValence",
+      "pointbiserial_r_vs_corr_flag": 0.008898297053323213,
+      "attr_plain_norm": 0.005358820781111717,
+      "attr_dann_norm": 0.005096035078167915,
+      "suppression_plain_minus_dann": 0.0002627857029438019
+    },
+    {
+      "feature": "MagpieData mean NUnfilled",
+      "pointbiserial_r_vs_corr_flag": 0.008166750040598178,
+      "attr_plain_norm": 0.02377215586602688,
+      "attr_dann_norm": 0.02400868386030197,
+      "suppression_plain_minus_dann": -0.00023652799427509308
+    },
+    {
+      "feature": "MagpieData avg_dev NpUnfilled",
+      "pointbiserial_r_vs_corr_flag": 0.004413251627297957,
+      "attr_plain_norm": 0.00612452020868659,
+      "attr_dann_norm": 0.006549786310642958,
+      "suppression_plain_minus_dann": -0.0004252661019563675
+    },
+    {
+      "feature": "MagpieData mean NdValence",
+      "pointbiserial_r_vs_corr_flag": 0.004075336641757323,
+      "attr_plain_norm": 0.010848269797861576,
+      "attr_dann_norm": 0.01034565269947052,
+      "suppression_plain_minus_dann": 0.0005026170983910561
+    },
+    {
+      "feature": "MagpieData minimum NdValence",
+      "pointbiserial_r_vs_corr_flag": 0.003994235745527286,
+      "attr_plain_norm": 0.004885350354015827,
+      "attr_dann_norm": 0.005557846277952194,
+      "suppression_plain_minus_dann": -0.000672495923936367
+    },
+    {
+      "feature": "MagpieData mode MeltingT",
+      "pointbiserial_r_vs_corr_flag": 0.0028934387826095058,
+      "attr_plain_norm": 0.01071951724588871,
+      "attr_dann_norm": 0.008931884542107582,
+      "suppression_plain_minus_dann": 0.001787632703781128
+    },
+    {
+      "feature": "MagpieData maximum MendeleevNumber",
+      "pointbiserial_r_vs_corr_flag": 0.0021710302332825166,
+      "attr_plain_norm": 0.0037154683377593756,
+      "attr_dann_norm": 0.002848769770935178,
+      "suppression_plain_minus_dann": 0.0008666985668241978
+    }
+  ],
+  "summary": {
+    "spearman_rho_corrflag_assoc_vs_suppression": -0.09414932195165218,
+    "spearman_p": 0.282915763602295,
+    "mean_suppression_top15_corr_electron_features": -0.0007840162725187838,
+    "mean_suppression_bottom15_control_features": 0.0004269752243999392,
+    "mean_suppression_all_132_features": 1.6933138224928257e-10
+  },
+  "verdict": "Spearman rho between a feature's a-priori correlated-electron association and how much its attribution is suppressed under DANN relative to a plain network is -0.094 (p=0.283). Mean suppression for the top-15 most correlated-electron-associated features is -0.00078 vs 0.00043 for the bottom-15 (least-associated, control) features. This does not clearly support the manuscript's inference of differential suppression: the top correlated-electron-associated features are not suppressed more than the control set under DANN by this measure. The domain-invariance objective appears to suppress broadly across the feature set rather than selectively targeting correlated-electron features, or the suppression signal is present but this attribution method is too noisy at this scale to detect it."
+}

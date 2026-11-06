@@ -1,0 +1,10 @@
+{
+  "n_nemad_raw_rows": 35037,
+  "n_nemad_unique_formulas": 34511,
+  "n_nemad_conflicting_formulas": 363,
+  "n_jarvis_unique_formulas": 62763,
+  "n_overlap_all": 10160,
+  "n_overlap_correlated_electron": 4368,
+  "n_mp_unique_formulas": 74461,
+  "n_overlap_mp_all": 15368
+}

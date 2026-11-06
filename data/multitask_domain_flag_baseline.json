@@ -1,0 +1,46 @@
+{
+  "in_distribution_pooled_trained": {
+    "mp_pooled_trained": {
+      "n": 13490,
+      "mae": 0.08150788236193085,
+      "r2": 0.8653740266459143
+    },
+    "jarvis_pooled_trained": {
+      "n": 11150,
+      "mae": 0.07489320806081286,
+      "r2": 0.5732481319325963
+    }
+  },
+  "flag_flip_test": {
+    "all_overlap": {
+      "n": 7009,
+      "correct_flag_mae": 0.06757062111373803,
+      "wrong_flag_mae": 0.08076762955000827,
+      "mp_flag1_vs_mp_true_mae": 0.0736784756167353,
+      "jarvis_flag0_vs_jarvis_true_mae": 0.061462766610740766,
+      "mp_flag0_vs_mp_true_mae": 0.08025468760810359,
+      "jarvis_flag1_vs_jarvis_true_mae": 0.08128057149191294
+    },
+    "correlated_electron": {
+      "n": 2495,
+      "correct_flag_mae": 0.1229882089308082,
+      "wrong_flag_mae": 0.14042451200621242,
+      "mp_flag1_vs_mp_true_mae": 0.13477323609286157,
+      "jarvis_flag0_vs_jarvis_true_mae": 0.11120318176875484,
+      "mp_flag0_vs_mp_true_mae": 0.1407585257305812,
+      "jarvis_flag1_vs_jarvis_true_mae": 0.1400904982818436
+    },
+    "non_correlated": {
+      "n": 4514,
+      "correct_flag_mae": 0.036939942867484137,
+      "wrong_flag_mae": 0.047793787784782445,
+      "mp_flag1_vs_mp_true_mae": 0.039909882929997344,
+      "jarvis_flag0_vs_jarvis_true_mae": 0.03397000280497093,
+      "mp_flag0_vs_mp_true_mae": 0.04681271239419539,
+      "jarvis_flag1_vs_jarvis_true_mae": 0.0487748631753695
+    }
+  },
+  "n_overlap_total": 35046,
+  "n_overlap_test_formulas": 7009,
+  "n_flag_flip_eval_formulas": 7009
+}

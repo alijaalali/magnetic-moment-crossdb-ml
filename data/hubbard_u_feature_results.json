@@ -1,0 +1,118 @@
+{
+  "u_table": {
+    "Co": 3.32,
+    "Cr": 3.7,
+    "Fe": 5.3,
+    "Mn": 3.9,
+    "Mo": 4.38,
+    "Ni": 6.2,
+    "V": 3.25,
+    "W": 6.2
+  },
+  "n_u_positive_mp": 14806,
+  "n_u_positive_jarvis": 5501,
+  "u_max": {
+    "baseline_4condition": {
+      "mp_internal": {
+        "n": 14893,
+        "mae": 0.07312196562231657,
+        "r2": 0.8628899670767138
+      },
+      "jarvis_internal": {
+        "n": 12553,
+        "mae": 0.06912564923389143,
+        "r2": 0.6144526635393743
+      },
+      "mp_to_jarvis": {
+        "n": 62763,
+        "mae": 0.09268782473627049,
+        "r2": 0.015609324990415119
+      },
+      "jarvis_to_mp": {
+        "n": 74461,
+        "mae": 0.134673443371685,
+        "r2": 0.3136915713337648
+      }
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 5501,
+        "mae": 0.20041469339021004,
+        "target_std": 0.28293564861008863,
+        "mae_over_target_std": 0.7083401981148014
+      },
+      "non_correlated": {
+        "n": 57262,
+        "mae": 0.08233880611195905,
+        "target_std": 0.22296443028257296,
+        "mae_over_target_std": 0.3692912183688104
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 14806,
+        "mae": 0.20966500408615377,
+        "target_std": 0.3629426367822727,
+        "mae_over_target_std": 0.5776808311775469
+      },
+      "non_correlated": {
+        "n": 59655,
+        "mae": 0.11606100438185304,
+        "target_std": 0.4529972225582917,
+        "mae_over_target_std": 0.25620687854640944
+      }
+    }
+  },
+  "u_sum_frac": {
+    "baseline_4condition": {
+      "mp_internal": {
+        "n": 14893,
+        "mae": 0.07288834248834404,
+        "r2": 0.86470475761519
+      },
+      "jarvis_internal": {
+        "n": 12553,
+        "mae": 0.06962170957177154,
+        "r2": 0.6122500172323893
+      },
+      "mp_to_jarvis": {
+        "n": 62763,
+        "mae": 0.09217186574657431,
+        "r2": 0.012584379597899265
+      },
+      "jarvis_to_mp": {
+        "n": 74461,
+        "mae": 0.13491837815448732,
+        "r2": 0.31151792720107596
+      }
+    },
+    "subgroup_mp_to_jarvis": {
+      "correlated_electron": {
+        "n": 5501,
+        "mae": 0.20361606558913942,
+        "target_std": 0.28293564861008863,
+        "mae_over_target_std": 0.7196550402517186
+      },
+      "non_correlated": {
+        "n": 57262,
+        "mae": 0.08146573352391441,
+        "target_std": 0.22296443028257296,
+        "mae_over_target_std": 0.36537547007237514
+      }
+    },
+    "subgroup_jarvis_to_mp": {
+      "correlated_electron": {
+        "n": 14806,
+        "mae": 0.20516404274642652,
+        "target_std": 0.3629426367822727,
+        "mae_over_target_std": 0.5652795289231982
+      },
+      "non_correlated": {
+        "n": 59655,
+        "mae": 0.11748384106709728,
+        "target_std": 0.4529972225582917,
+        "mae_over_target_std": 0.25934781763916764
+      }
+    }
+  }
+}

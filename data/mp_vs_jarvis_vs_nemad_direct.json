@@ -1,0 +1,64 @@
+{
+  "n_three_way_overlap": 9747,
+  "all_three_way": {
+    "FM": {
+      "n": 1269,
+      "jarvis_frac_exceeding_0.1": 0.4736012608353034,
+      "mp_frac_exceeding_0.1": 0.6044129235618597,
+      "jarvis_median_abs_mag": 0.0244444444444444,
+      "mp_median_abs_mag": 0.249927275
+    },
+    "AFM": {
+      "n": 1741,
+      "jarvis_frac_exceeding_0.1": 0.39287765651924184,
+      "mp_frac_exceeding_0.1": 0.43940264215967834,
+      "jarvis_median_abs_mag": 0.0,
+      "mp_median_abs_mag": 0.0010112833333333
+    },
+    "NM": {
+      "n": 6737,
+      "jarvis_frac_exceeding_0.1": 0.003859284548018406,
+      "mp_frac_exceeding_0.1": 0.005343624758794715,
+      "jarvis_median_abs_mag": 0.0,
+      "mp_median_abs_mag": 7.5e-08
+    }
+  },
+  "correlated_electron_three_way": {
+    "FM": {
+      "n": 849,
+      "jarvis_frac_exceeding_0.1": 0.6030624263839811,
+      "mp_frac_exceeding_0.1": 0.734982332155477,
+      "jarvis_median_abs_mag": 0.2451428571428571,
+      "mp_median_abs_mag": 0.4736954714285714
+    },
+    "AFM": {
+      "n": 927,
+      "jarvis_frac_exceeding_0.1": 0.5415318230852212,
+      "mp_frac_exceeding_0.1": 0.5652642934196332,
+      "jarvis_median_abs_mag": 0.136,
+      "mp_median_abs_mag": 0.1851559285714285
+    },
+    "NM": {
+      "n": 2329,
+      "jarvis_frac_exceeding_0.1": 0.006869901245169601,
+      "mp_frac_exceeding_0.1": 0.005152425933877201,
+      "jarvis_median_abs_mag": 0.0,
+      "mp_median_abs_mag": 2e-07
+    }
+  },
+  "head_to_head_AFM_spurious_rate": {
+    "correlated_electron_subgroup": {
+      "n": 927,
+      "jarvis_spurious_rate": 0.5415318230852212,
+      "mp_spurious_rate": 0.5652642934196332,
+      "mp_better_than_jarvis": false
+    },
+    "all_compounds": {
+      "n": 1741,
+      "jarvis_spurious_rate": 0.39287765651924184,
+      "mp_spurious_rate": 0.43940264215967834,
+      "mp_better_than_jarvis": false
+    }
+  },
+  "verdict": "On the same three-way-overlap compound set, within the correlated-electron subgroup (n=927), MP's AFM spurious-large-moment rate is not lower (not better, or equal/worse) than JARVIS's. Across all NEMAD-confirmed AFM compounds in the three-way overlap regardless of subgroup (n=1741), MP is not lower there (the effect may be specific to the correlated-electron subgroup, or may not hold directly). This is the direct, same-compound-set test of the manuscript's indirect argument."
+}
