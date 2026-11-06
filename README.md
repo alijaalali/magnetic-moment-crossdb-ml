@@ -37,7 +37,15 @@ Code and data for the magnetic-moment cross-database transfer study. Composition
 - `hubbard_u_vs_magnetic_init_metadata.json`: comparison of MP and JARVIS calculation settings (Hubbard-U and magnetic initialization) from package source code.
 - `selective_prediction_results.json`: selective-prediction results.
 
-The raw MP and JARVIS-DFT query dumps and the raw NEMAD tables are not included. They can be downloaded from their public sources (MP REST API with a free key, the `dft_3d` table of `jarvis-tools`, and the NEMAD database).
+## Raw input files
+
+`data/mp_magmom_raw.json` (Materials Project query result, fields `material_id`, `formula_pretty`, `total_magnetization`, `energy_above_hull`, `nsites`, `theoretical`, `is_stable`; Materials Project data are released under CC BY 4.0) and `data/jarvis_magmom_raw.json` (the `magmom_oszicar`, composition and atom-count fields of the JARVIS-DFT `dft_3d` table; JARVIS data are openly distributed by NIST) are included, both retrieved on 28 October 2026. They can be regenerated with `build_mp_magmom_table.py` (needs a free `MP_API_KEY`) and the `dft_3d` table of `jarvis-tools`; the cleaned tables in the preceding section are derived from them.
+
+The NEMAD tables are not redistributed here because their redistribution terms were not verified. `nemad_ordering_validation.py` expects `data/nemad_classification_raw.csv` (columns `Normalized_Composition`, `Type`, ...; the ordering-classification table), and the Curie and Neel temperature tables `data/nemad_fm_curie_raw.csv` and `data/nemad_afm_neel_raw.csv`, downloaded from the Northeast Materials Database (Itani, Zhang and Zang, Nat. Commun. 16, 9415, 2025). The derived overlap and validation results are in `data/nemad_overlap_check.json` and `data/jarvis_ordering_validation.json`.
+
+## Batch systems
+
+`run_all.sh` is scheduler-independent. `example_hpc_job.sh` is a placeholder template for submitting it to a PBS cluster; replace every `<PLACEHOLDER>` with your own values.
 
 ## Requirements
 

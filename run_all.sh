@@ -1,8 +1,8 @@
 #!/bin/bash
 # Runs the full pipeline in order. Run from any directory; all paths are relative to this
 # script's directory (override with MAGMOM_ROOT). Requires MP_API_KEY for step 1 only.
-# Step 1 is skipped if data/mp_magmom_raw.json already exists; the raw MP/JARVIS/NEMAD
-# dumps are not shipped (see README), so steps 1-2 need network access.
+# Step 1 is skipped because data/mp_magmom_raw.json is shipped. The NEMAD tables are not
+# shipped and must be downloaded separately (see README, 'Raw input files').
 set -e
 cd "$(dirname "$0")"
 PY=${PYTHON:-python}
